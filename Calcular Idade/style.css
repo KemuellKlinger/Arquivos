@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(152, 152, 236);
+    text-align: center;
+}
+
+div{
+    background-color: antiquewhite;
+    margin: 2% 35%;
+    border-radius: 10px;
+}
+h1{
+    margin: 0 85vh;
+    max-width: fit-content;
+    padding: 20px;
+    background-image: linear-gradient(to right bottom, rgb(255, 255, 255), rgba(152, 152, 236, 0.637));
+    border-radius: 10% 30%;
+    margin-top: 10%;
+    color: black;
+}
+input[type="number"]{
+    max-width: 85%;
+    min-width: 50%;
+}
+
+#foto{
+    border-radius: 50%;
+    width: 300px;
+    height: 220px;
+}
