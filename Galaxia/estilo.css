@@ -2,7 +2,6 @@ html, body {
     margin: 0;
     padding: 0;
     min-height: 100%;
-    /* text-align: center; */
 }
 body { 
     font-family: Roboto,sans-serif;
@@ -11,27 +10,12 @@ body {
     background-size: cover;
 }
 #menu {
-    /* position: fixed; */
     padding: 5px;
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     background: linear-gradient(to right, #01192ca9, #0328479a, #c01d14a9, #0328479a);
     backdrop-filter: blur(2px);
-}
-
-#galaxia {
-    margin-top: 10px;
-    font-size: 40px;
-    text-align: left;
-}
-button{
-    padding: 5px;
-    background: transparent;
-}
-img{
-    width: 30px;
-    height: 30px;
 }
 
 #info_menu {
@@ -43,10 +27,6 @@ img{
 #menu>nav li {
     display: inline-block;
     margin: 1px 40px 1px 40px;
-}
-
-nav ul {
-    margin: -30px;
 }
 
 nav a {
@@ -102,7 +82,8 @@ nav a:hover {
     margin-right: 10px;
     transition: 0.8s
 }
-a{
+
+.imagens-galaxia{
     display: flex;
     justify-content: center;
 }
@@ -121,8 +102,9 @@ a{
     font-weight: bolder;
     text-align: center;
 }
+
 .paragrafos{
-    padding: 7px;
+    padding: 10px;
     text-align: justify;
 }
 
@@ -132,7 +114,22 @@ a{
     color: #e7dfdf;
     text-align: justify;
 }
+
 #informativo>h1{
     margin-top: 50px;
     text-align: center;
+}
+
+.rodape{
+    background: linear-gradient(to left, #01192ca9, #0328479a, #c01d14a9, #0328479a);
+    margin-top: 50px;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+}
+
+.rodape h6{
+    padding: 0;
+    margin: 0;
 }
