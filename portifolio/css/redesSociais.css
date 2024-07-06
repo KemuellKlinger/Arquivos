@@ -1,0 +1,32 @@
+@import url(cores.css);
+
+#redes-sociais {
+    text-align: center; /* Centraliza os ícones */
+
+    background-image: url(../img/planeta.avif);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5% 0%;
+    border-radius: 10% 10% 0 0;
+}
+#borrao-rs{
+    padding: 100px;
+    width: 100%;
+    backdrop-filter: blur(3px);
+}
+#redes-sociais h1{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.social-icon {
+    margin: 30px 30px; 
+    color: #ffffff; 
+    font-size: 34px; 
+    text-decoration: none; 
+    transition: 0.3s;
+}
+.social-icon:hover {
+    color: #000000; 
+}

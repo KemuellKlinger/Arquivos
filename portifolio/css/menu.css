@@ -1,0 +1,51 @@
+@import url(cores.css);
+
+#menu{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #30395cec; */
+    background-color: rgba(0, 0, 0, 0.822);
+    color: white;
+    padding: 20px;
+    z-index: 1000;
+    backdrop-filter: blur(2px);
+}
+
+#titulo{
+    display: flex;
+    font-size: 14pt;
+}
+
+#logo{
+    background-color: var(--azulDark);
+    color: var(--azulEscuro);
+    font-size: 2em;
+    font-weight: bold;  
+    padding:0 5px;
+    border-radius: 40%;
+    margin: auto;
+}
+
+nav li{
+    display: inline-block;
+    margin: auto 20px;
+}
+
+nav a{
+    transition: 0.8s;
+    text-decoration: none;
+    font-weight: bold;
+    color: #85A5CC;
+    padding: 5px;
+}
+
+nav a:hover{
+    transition: 0.8s;
+    background-color: #1A1F2B;
+    border-radius: 10px;
+    color: white;
+}

@@ -1,0 +1,20 @@
+@import url(cores.css);
+
+@font-face {
+    font-family: mono;
+    src: url(../fonts/vcr_osd_mono/VCR_OSD_MONO_1.001.ttf);
+}
+body{
+    transition: 0.5s;
+    font-family: mono;
+    background-color: black;
+    
+}
+
+span{
+    color: var(--azulClaro);
+}
+h1{
+    color: white;
+}
+

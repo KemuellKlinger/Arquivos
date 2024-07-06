@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/tag.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body id="corpo">
+    <header id="menu">
+        <div id="titulo">
+            <div id="logo">M</div>
+            <h1>eu Portfolio</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#sessao1">Sobre Mim</a></li>
+                <li><a href="#sessao2">Projetos</a></li>
+                <li><a href="#redes-sociais">Redes-sociais</a></li>
+                <li><a href="#sessao3">Contato</a></li>
+                <button onclick="mudarTema()" type="button">Mudar tema</button>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="sessao0">
+            <div id="borrao">
+                <h1>&lt;/Seja Bem-Vindo(a)&gt;</h1>
+            </div>
+        </section>
+
+        <section id="sessao1">
+            <div id="sobre-mim">
+                <img id="foto-perfil" src="img-perfil/WhatsApp Image 2024-06-30 at 16.55.18.jpeg" alt="pefil">
+                <div class="paragrafo">
+                    <h1 id="titulo-sobre-mim"><span>Sobre</span> Mim</h1>
+                    <p class="paragrafos">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error deserunt rem praesentium?
+                        Incidunt,
+                        eum
+                        nihil pariatur officia natus nostrum quisquam reiciendis! Quo culpa consequatur minima esse
+                        soluta
+                        nulla
+                        ab ad.</p>
+                    <p class="paragrafos">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus reprehenderit sequi vero ad
+                        veritatis
+                        cumque maxime. Corporis veritatis beatae eligendi maiores magnam, harum incidunt tenetur
+                        consectetur
+                        at
+                        eveniet dolorum delectus?</p>
+                    <p class="paragrafos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut cumque necessitatibus cupiditate
+                        labore
+                        dolorem quaerat repellat quasi, fugiat veritatis nulla consequatur veniam delectus perspiciatis
+                        nostrum atque accusamus. Aut, cupiditate! Harum.</p>
+                </div>
+            </div>
+
+        </section>
+        <section id="sessao2">
+            <h1 id="titulo-portfolio">Meu <span>Portfolio</span></h1>
+            <div id="portifolio">
+                <div id="card-robotica" class="cartoes">
+                    <div class="info-card">Robotica Lego</div>
+                </div>
+                <div id="card-arduino" class="cartoes">
+                    <div class="info-card">Arduino</div>
+                </div>
+                <div id="card-html-css" class="cartoes">
+                    <div class="info-card">HTML e CSS</div>
+                </div>
+                <div id="card-python" class="cartoes">
+                    <div class="info-card">Python</div>
+                </div>
+            </div>
+        </section>
+        <section id="redes-sociais">    
+            <div id="borrao-rs">
+                <h1>Redes Sociais</h1>
+                <a href="https://www.instagram.com/kemuell_klinger/" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/kemuell-klinger-costa-torres-6608b4227" class="social-icon" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/kemuellklinger" class="social-icon" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </section>
+        <section id="sessao3" >
+                <div id="sessao-contato">
+                    <h2 style="color: white;">FALE COMIGO</h2>
+                    <form action="#">
+                        <input class="font-forms" type="text" placeholder="Seu nome completo:" required>
+                        <input class="font-forms" type="email" placeholder="Seu e-mail:" required>
+                        <input class="font-forms" type="tel" id="phone" placeholder="Seu celular:">
+                        <textarea class="font-forms" placeholder="Sua mensagem" required></textarea>
+                        <div class="btn-enviar">
+                            <input class="font-enviar" type="submit" value="ENVIAR">
+                        </div>
+                    </form>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <h2>
+            Centro Universitário Santa Terezinha - CEST - Av. Casemiro Junior, 12 - Anil, CEP: 65045-180, São Luis - MA
+            
+            © Todos os direitos reservados</h2>
+        <h2>Develop by Kemuell</h2>
+    </footer>
+
+</body>
+
+</html>

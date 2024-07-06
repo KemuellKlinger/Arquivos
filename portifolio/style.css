@@ -1,0 +1,21 @@
+@import url(css/body.css);
+
+@import url(css/menu.css);
+
+@import url(css/sessaoSobreMim.css);
+
+@import url(css/resposividade.css);
+
+@import url(css/sessaoPortifolio.css);
+
+@import url(css/footer.css);
+
+@import url(css/contato.css);
+
+@import url(css/sessaoApresentacao.css);
+
+@import url(css/redesSociais.css);
+
+html{
+    scroll-behavior: smooth;
+}

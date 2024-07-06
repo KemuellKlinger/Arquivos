@@ -1,0 +1,43 @@
+@import url(cores.css);
+
+#foto-perfil{
+    animation: animacao 7s ease-out infinite;
+    width: 220px;
+    border-radius: 10%;
+    margin-left: 50px;
+}  
+@keyframes animacao{
+    0%{
+        transform: rotate(0deg);
+    }25%{
+        transform: rotate(3deg);    
+    }75%{
+        transform: rotate(-3deg);  
+    }100%{
+        transform: rotate(0deg);
+    }
+}
+#sobre-mim{
+    border-radius: 10px;
+    margin: 50px 30px;
+    display: flex;
+    padding: 10px;
+    color: white;
+}
+#titulo-sobre-mim{
+    font-size: 30pt;
+    text-align: start;
+    color: white;
+}
+.paragrafo{
+    display: flex;
+    margin: 0 10%;
+    text-align: justify;
+    justify-content: center;
+    max-width: 700px;
+    flex-direction: column;
+    gap: 1em;
+}
+#sessao1{
+    padding: 50px;
+}

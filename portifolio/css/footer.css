@@ -1,0 +1,15 @@
+@import url(cores.css);
+footer {
+    background-color: var(--azulDark); /* Cor de fundo do footer */
+    color: white; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px; /* Espaçamento interno do footer */
+    width: 100%; /* Largura total do footer */
+    margin-top: 40px; /* Espaçamento superior do footer */
+}
+
+footer h2 {
+    margin: 0; /* Remove a margem do h2 */
+    font-size: 1em; /* Tamanho da fonte do h2 */
+    font-family: Arial, sans-serif; /* Fonte do h2 */
+}

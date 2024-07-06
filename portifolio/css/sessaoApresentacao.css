@@ -1,0 +1,28 @@
+@font-face {
+    font-family: minecraft;
+    src: url(../fonts/minecraft/Minecraft.ttf);
+}
+@font-face {
+    font-family: mono;
+    src: url(../fonts/vcr_osd_mono/VCR_OSD_MONO_1.001.ttf);
+}
+#sessao0 {
+    margin-top: -35;
+    background-image: url('../gif/8d8642148830fc5c69a21dc16632afbd.gif');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 100vh; 
+ 
+}
+#borrao{
+    height: 100%;
+    /* background-color: rgba(17, 17, 17, 0.466); */
+    backdrop-filter: blur(2px);     
+    background-image: linear-gradient(to bottom, transparent, black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-family: mono;
+}
